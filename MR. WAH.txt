@@ -1,0 +1,17 @@
+### AUTOFILL PROFILES ###,,,,,,
+Profile ID,Name,Site,Hotkey,,,
+c1,"DCY-by Zarly","http://dcywah.dcy.go.th/opp/app/register.php","",,,
+### AUTOFILL RULES ###,,,,,,
+Rule ID,Type,Name,Value,Site,Mode,Profile
+r1,0,"/^CARD_ID$/i","1234567890123","",1,c1
+r2,0,"/^NAME_TH$/i","ชื่อ","",1,c1
+r3,0,"/^LASTNAME_TH$/i","นามสกุล","",1,c1
+r4,0,"/^NAME_EN$/i","NAME","",1,c1
+r5,0,"/^LASTNAME_EN$/i","LASTNAME","",1,c1
+r6,0,"/^EMAIL$/i","ZARLY@gmail.com","",1,c1
+r7,3,"/^checkbox$/i","1","",1,c1
+r8,2,"/^PREFIX_TH$/i","""นาย""","",1,c1
+r9,2,"/^PREFIX_EN$/i","""MR""","",1,c1
+r10,0,"/^ADDRESS$/i","บ้านเลขที่","",1,c1
+r11,0,"/^CARD_ID2$/i","1234567890123","",1,c1
+r12,0,"/^EMAIL2$/i","ZARLY@gmail.com","",1,c1
